@@ -67,10 +67,10 @@
       }
     ],
     "website": "https://github.com/samakshgrove",
-    "twitter": "https://x.com/samaksh_grover",
+    "twitter": "samaksh_grover",
     "blog": "https://dev.to/yourhandle",
     "youtube": "https://youtube.com/@yourchannel",
-    "linkedin": "https://www.linkedin.com/in/samakshgrover/",
+    "linkedin": "samakshgrover/",
     "openSource": [{ "name": "org/repo", "url": "https://github.com/org/repo" }]
   }
 ]
