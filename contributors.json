@@ -21,6 +21,22 @@
       { "name": "OSSForAll/I-AM-CONTRIBUTOR", "url": "https://github.com/OSSForAll/I-AM-CONTRIBUTOR" }
     ],
     "linkedin": "mrpunyapal"
+  },
+    {
+    "github": "ThakkarSandeep",
+    "name": "Sandeep Thakkar",
+    "category": "Intermediator",
+    "intro": "Building communities, content & tools for the PHP & Laravel ecosystem.",
+    "techStack": ["Laravel", "PHP", "JavaScript"],
+    "packages": [],
+    "website": "",
+    "twitter": "MrPunyapal",
+    "blog": "https://mrpunyapal.dev/talks",
+    "openSource": [
+      { "name": "OSSForAll/I-AM-CONTRIBUTOR", "url": "https://github.com/OSSForAll/I-AM-CONTRIBUTOR" }
+    ],
+    "linkedin": "mrpunyapal"
   }
+
 ]
 
