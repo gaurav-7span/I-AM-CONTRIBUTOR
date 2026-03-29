@@ -134,13 +134,13 @@ contributors.forEach((c, i) => {
     }
   }
 
-  // Handle-type optional fields (no URL, no @, no spaces)
+  // Handle-type optional fields — accept plain handle OR full URL
   for (const field of ['twitter', 'linkedin']) {
     if (c[field] !== undefined) {
       if (typeof c[field] !== 'string') {
         fail(i, field, 'must be a string');
-      } else if (!HANDLE_RE.test(c[field])) {
-        fail(i, field, `must be a plain handle without @ or URL (e.g. "yourhandle")`);
+      } else if (!HANDLE_RE.test(c[field]) && !URL_RE.test(c[field])) {
+        fail(i, field, `must be a plain handle (e.g. "yourhandle") or a full URL (e.g. "https://linkedin.com/in/yourhandle")`);
       }
     }
   }
